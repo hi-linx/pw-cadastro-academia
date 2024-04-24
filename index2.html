@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tenor+Sans&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Cadastro Maximus</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="bg-yellow">
+            <nav class="navbar navbar-expand-lg  text-bg-warning p-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Maximus</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Cadastrar</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <br>
+    <br><br>
+    <main class="container-fluid">
+        <div class="border border-black rounded-2 margem">
+            <div class="col-12 col-md-12">
+
+                <h2 class="py-4">
+
+                    <div class="title">
+                        Formulário da Maximus:
+                    </div>
+                </h2>
+            </div>
+
+
+
+            <div class="col">
+
+                <div class="py-3">
+
+                    <div class="row">
+
+                        <div class="col">
+
+                            <label for="nome">Nome</label>
+
+                            <input type="text" id="nome" class="form-control" placeholder="Digite seu nome">
+
+                        </div>
+
+                        <div class="col">
+
+                            <label for="sobrenome">Sobrenome</label>
+
+                            <input type="text" id="sobrenome" class="form-control" placeholder="Digite seu sobrenome">
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="py-3">
+
+                        <div class="row">
+
+
+                            <div class="col">
+
+                                <label for="cpf">Cpf</label>
+
+                                <input type="number" id="cpf" class="form-control" placeholder="Digite seu cpf">
+
+                            </div>
+
+                            <div class="col-4">
+
+                                <label for="telefone"> Telefone </label>
+
+                                <input type="number" id="telefone" class="form-control"
+                                    placeholder="Digite seu telefone">
+
+                                </select>
+                            </div>
+
+                            <div class="col-4">
+
+                                <label for="data">Data de Nascimento</label>
+
+                                <input type="date" id="data" class="form-control">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="py-3">
+
+                        <div class="row">
+
+                            <div class="col">
+
+                                <label for="rua"> Rua e N° </label>
+
+                                <input type="text" id="rua" class="form-control" placeholder="Digite sua Rua e o N° ">
+
+                            </div>
+
+                            <div class="col-4">
+
+                                <label for="bairro"> Bairro </label> 
+
+                                <input type="text" id="bairro" class="form-control" placeholder="Digite seu Bairro">
+
+                            </div>
+
+                            <div class="col-4">
+
+                                <label for="cidade"> Cidade </label>
+
+                                <input type="text" id="cidade" class="form-control" placeholder="Digite sua Cidade">
+
+                            </div>
+
+                            
+
+
+                        </div>
+
+                    </div>
+                    
+                    <div class="py-3">
+
+                       <div class="row">
+
+                        <div class="col">
+
+
+                            <label for="modalidade">Modalidade</label>
+
+                            <select name="" id="modalidade" class="form-control form-select">
+
+                                <option value="Musculação">Musculação</option>
+                                <option value="Aeróbico">Aeróbico</option>
+                                <option value="Crossfit">Crossfit</option>
+                            </select>
+
+                        </div>
+
+                        <div class="col-4">
+
+                            
+                            <label for="saude">Apresenta algum Problema de saúde?</label>
+
+                            <select name="" id="saude" class="form-control form-select">
+
+                                <option value="sim">Sim</option>
+                                <option value="não">Não</option>
+                            </select>
+
+                    </div>
+
+                        <div class="col-4">
+
+
+                            <label for="problema">Especifique o Problema:</label>
+
+                            <input type="text" id="problema" list="problema" name="problema" class="form-control" placeholder="Especifique o Problema">
+                          
+                        </div>
+
+                    </div>
+
+                        </div>
+
+                       </div>
+
+                           
+                    <div class="py-3 text-center">
+
+                        <div class="cadastrar ">
+                            <button class="btn btn-outline-dark btn-lg w-15" id="btn">
+                                Cadastrar
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="col py-3">
+            <div class="row row-cols-1 row-cols-md-4" id="cards">
+                <div class="col py-2 bg-card-gradient">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title" id="nomes"></h5>
+                            <p class="card-text" id="resultado"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        </div>
+
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app
+.js"></script>
+
+
+
+<footer>
+    <p>&copy; 2024 Maximus Academia</p>
+</footer>
+
+
+</body>
+
+</html>

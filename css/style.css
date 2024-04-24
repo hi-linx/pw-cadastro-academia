@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    box-sizing: border-box;
+
+}
+
+a{
+  color: #000000;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover{
+  opacity: 0.7;
+}
+
+.logo{
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.bg-yellow{
+
+background-color: #FFEC9E;
+  color: #000000;
+}
+.bg-blue{
+  background-color: #96B6C5;
+  color: #F1F0E8;
+}
+
+.btn-color{
+  background-color: #96B6C5;
+  color:#F1F0E8
+}
+
+.btn-color:hover{
+  background-color: #F1F0E8;
+  color: #96B6C5;
+  border: 1px solid #96B6C5;
+}
+
+.margem{
+  padding: 30px;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .title {
+    color: #000000;
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+  }
+
+  .title2 {
+    text-align: center;
+    font-family: "Tenor Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    font-style: normal;
+    color: #ffffff;
+}
+
+  
+  .text {
+    color: #B0D9B1;
+  }
+
+  .font {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 100;
+    color: #000;
+}
+
+.links{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 100;
+  color: #000;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+  
+  .banner {
+    text-align: center;
+    padding: 30px;
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+  
+  }
+
+  .divBusca {
+    background-color: #E0EEEE;
+    padding-left: 0%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    height: 3%;
+    border-radius: 8px;
+  }
+  
+  .txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 15px;
+    border: none;
+    height: 32px;
+    width: 100%;
+  }
+  
+          .container2{
+            width: 100%;
+            height: 100%;
+            align-items: center;
+           background-color: aqua;
+          }
+
+          .wrapper {
+            width: 100%;
+            margin: 0 auto;
+        }
+        
+        main {
+            display: block;
+            background-color: #fff;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 0 20;
+        }
+        
+        
+        section.module p{
+            margin-bottom: 40px;
+        }
+        
+        section.module:last-child{
+            margin-bottom: 0;
+        }
+        
+        section.module h2{
+            margin-bottom: 40px;
+            font-size: 30px;
+        }
+        
+        section.module.content{
+        padding: 40px 0;
+        background: #ece7d5;
+        }
+        
+        section.module.parallax{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100vh !important;
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size:cover;
+        }
+
+        section.module.parallax::after{
+          content: "";
+          height: 100%;
+          width: 100%;
+          position: absolute;
+          z-index: 8;
+          background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000 100% );
+          background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000 100% );
+          background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000 100% );
+      }
+      
+      
+      section.module.parallax-1{
+        background-image: url("https://i.pinimg.com/originals/db/45/f5/db45f52a45b85f25678bfba355c8d687.jpg");  
+       }
+       
+    
